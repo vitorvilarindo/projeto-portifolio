@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1080px) {
+    :root{
+        --cor-01:#EDEDED;
+        --cor-02:#1C1C1C;
+        --cor-03:#333333;
+        --cor-04:#01B0F0;
+        --cor-05:#121212;
+    
+        --font-titulos:'Rubik', sans-serif;
+        --font-paragrafos:'Montserrat', sans-serif;
+    }
+    .principal {
+        flex-direction: row;
+    }
+    .cabeçalho {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--cor-02);
+        padding: 10px;
+    }
+    #burguer {
+        display: none;
+    }
+    
+    .cabeçalho-menu-links {
+        display: flex;
+        position: relative;
+        list-style: none;
+        top: 0;
+        right: 0;
+        height: auto;
+        width: auto;
+        padding: 10px;
+        gap: 30px;
+        border-radius: 0px 10px 0px ;
+        box-shadow: 0px 0px 0px #01b0f000;
+        background-color: var(--cor-02);
+        flex-direction: row;
+        justify-content: none;
+    }
+    .cabeçalho-menu-links > li> a {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        
+    }
+    .cabeçalho-menu-links > li> a:hover{
+        background-color: var(--cor-03);
+        padding: 10px;
+    }
+
+}

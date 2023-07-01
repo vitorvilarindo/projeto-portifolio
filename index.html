@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+<link rel="stylesheet" href="estilos/style.css">
+<link rel="stylesheet" href="estilos/padrão.css">
+<body>
+    <header class="cabeçalho">
+        <div class="cabeçalho-itens">
+            <h1 class="cabeçalho-titulo">Vitor L Vilarindo</h1>
+            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        </div>
+        <menu class="cabeçalho-menu">
+            <ul class="cabeçalho-menu-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Cursos</a></li>
+            </ul>
+        </menu>  
+    </header>
+    <main class="principal">
+        <section class="principal-conteudo">
+            <div class="principal-conteudo-textos">
+                <h1 class="principal-conteudo-textos-titulo">Vitor L Vilarindo</h1>
+                <p class="principal-conteudo-textos-texto">Desenvolvedor Front-End</p>
+                <p class="principal-conteudo-textos-resumo">Eu sou um estudante que se descobril como programador Front-End ao londo da pandemia de 2019</p>
+            </div>
+            <div class="principal-link">
+                <a href="#" class="pincipal-link-github"><img src="imagens/github.png" alt="imagem do git hub"></a>
+                <a href="#" class="pincipal-link-linkedin"><img src="imagens/linkedin.png" alt="imagem do linkedin"></a>
+            </div>
+        </section>
+        <picture>
+            <source media="(max-width: 720px)" srcset="imagens/animaçao-programador-menor-menor.png">
+            <img src="imagens/animaçao-programador-menor.png" alt="imagem normal">
+        </picture>
+    </main>
+    <footer class="rodape">
+        <p>Feito Por <a href="https://www.instagram.com/vilarindovitor/" class="rodape-link">Vitor Lisboa Vilarindo</a></p>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+</html>
